@@ -1,0 +1,109 @@
+body{
+    background: rgb(241, 255, 219);
+}
+
+#logo
+{
+    height: 60px;
+    width: 60;
+    padding-left: 20px;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: greenyellow;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    color: rgb(0, 0, 0);
+}
+.buttons-flex
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nobullets
+{
+    list-style: none;
+}
+
+.nav-li{
+    padding: 10px;
+
+}
+
+.nav-li:hover
+{
+    background: rgb(105, 157, 28);
+    cursor: pointer;
+    color: white;
+}
+
+.about-me
+{
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+}
+
+.profile-pic
+{
+    height: 170px;
+    width: 170px;
+    border-radius: 100px;
+    float: right;
+    margin-left: 10px;
+}
+.portfolio-container{margin: auto; margin-top: 30px;  width: 70%; display: flex; justify-content: center; flex-wrap: wrap;}
+.portfolio-card{border-radius: 20px; margin: 15px; height: 220px; width: 290px; border: solid black 1px;}
+.portfolio-card-image{border-top-right-radius: 20px;border-top-left-radius: 20px; margin:0px; padding:0px; height: 180px; width: 290px; background-color: aquamarine;}
+.portfolio-card-title{text-align: center; margin:0px; padding:0px; height: 40px; width: 290px;}
+.portfolio-h1{text-align: center;}
+
+.signup-fields form{
+
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:50%;
+    margin: auto;
+
+}
+
+.signup-fields form input, .signup-fields form label{
+    margin: 5px;
+}
+
+.signup-fields form button{
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+
+}
+
+.footer{
+    background-color: greenyellow;
+    height: 30px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 650px) 
+{
+    .flex
+    {
+        flex-direction: column;
+    }
+    
+}
