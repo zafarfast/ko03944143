@@ -12,7 +12,13 @@ function ContactMe() {
        } else if (!email)
        {
         document.getElementById('alert').textContent='Email is required'
-       } else if (!message)
+       } 
+       else if ( !(/^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/.test(email) ))
+       {
+        document.getElementById('alert').textContent='Email not valid'
+
+       }
+       else if (!message)
        {
         document.getElementById('alert').textContent='Message is required'
        } else
