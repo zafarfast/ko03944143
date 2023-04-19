@@ -3,9 +3,9 @@ function Footer() {
     return (
         <>
             <div className='footer'>
-                <a href="https://github.com/zafarfast">GitHub</a>
-                <a href="https://github.com/zafarfast">Linkedin</a>
-                <a href="https://github.com/zafarfast">Twitter</a>
+                <a className="footer-links" href="https://github.com/zafarfast">GitHub</a>
+                <a className="footer-links" href="https://www.linkedin.com/in/zafarahmed/">Linkedin</a>
+                <a className="footer-links" href="https://twitter.com/MdZafarAhmed3/">Twitter</a>
             </div>
         </>)
 }
